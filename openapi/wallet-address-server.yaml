@@ -110,9 +110,9 @@ components:
           description: A public name for the account. This should be set by the account holder with their provider to provide a hint to counterparties as to the identity of the account holder.
           readOnly: true
         assetCode:
-          $ref: ./schemas.yaml#/components/schemas/assetCode
+          $ref: './schemas.yaml#/components/schemas/assetCode'
         assetScale:
-          $ref: ./schemas.yaml#/components/schemas/assetScale
+          $ref: './schemas.yaml#/components/schemas/assetScale'
         authServer:
           type: string
           format: uri
